@@ -1,0 +1,68 @@
+body{
+}
+
+.group {
+  font-size: 7.5vw;
+   border-radius: 50%;
+   text-align: center;
+   margin-bottom: 2px;
+   width: 100%;
+  }
+
+  .group2 {
+    font-size: 8vw;
+     border-radius: 50%;
+     text-align: center;
+     margin-bottom: 2px;
+     width: 100%;
+    }
+
+#keyboard{
+  display: block;
+  background-color: rgb(207, 207, 207);
+  position: sticky;
+  bottom: 0px;
+  text-align: center;
+  align-content: center;
+  z-index: 999;
+}
+#keycontainer{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+  
+}
+
+  .emoji{
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 6.5vw;
+    padding: 0%;
+  }
+
+#messagebox{
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  margin: 5px;
+  min-height: 15%;
+  max-height: 150px;
+  padding: 5%;
+  font-size:5vw;
+  background-color: white;
+  overflow: scroll;
+}
+
+.emojigroup {
+  font-size: 1vw;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: green;
+  position: absolute;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.show{display: block;}
+.keyshow{display: none!important;}

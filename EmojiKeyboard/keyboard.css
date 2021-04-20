@@ -1,21 +1,30 @@
-body{
-}
 
 .group {
-  font-size: 7.5vw;
+  font-size: 6.5vmin;
    border-radius: 50%;
-   text-align: center;
    margin-bottom: 2px;
-   width: 100%;
+   height: 12vmin;
+   background-color: rgb(236, 236, 236);
   }
 
-  .group2 {
-    font-size: 8vw;
+.group:active{
+  background-color: rgb(218, 218, 218);
+}
+
+.group2 {
+    font-size: 4.5vmin;
      border-radius: 50%;
      text-align: center;
      margin-bottom: 2px;
+     height: 12vmin;
      width: 100%;
-    }
+     background-color: rgb(236, 236, 236);
+}
+
+.group2:active{
+ background-color: rgb(218, 218, 218);
+}
+
 
 #keyboard{
   display: block;
@@ -25,44 +34,53 @@ body{
   text-align: center;
   align-content: center;
   z-index: 999;
+  justify-items: center;
+  
 }
 #keycontainer{
+  width:95vmin;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   padding: 10px;
-  text-align: center;
-  align-items: center;
-  
+  margin: auto;
 }
 
   .emoji{
     border: none;
     color: white;
     text-align: center;
-    font-size: 6.5vw;
+    font-size: 6.5vmin;
     padding: 0%;
   }
 
 #messagebox{
   border-radius: 25px;
   border: 2px solid #73AD21;
-  margin: 5px;
-  min-height: 15%;
-  max-height: 150px;
-  padding: 5%;
-  font-size:5vw;
+  margin: auto;
+  min-height: 10vmin;
+  max-height: 15vmin;
+  width: 90vw;
+  padding: 1%;
+  font-size: 6.5vmin;
   background-color: white;
-  overflow: scroll;
+  overflow: auto;
+  overflow-anchor: auto;
+ 
+
 }
 
-.emojigroup {
-  font-size: 1vw;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: green;
-  position: absolute;
-  overflow: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+.switchboard{
+  width: 40vw;
+height: 7vmin;
+font-size: 4vmin;
+margin: 1%;
+border-radius: 25px;
 }
-.show{display: block;}
+.hide{
+width: 25vw;
+height: 7vmin;
+font-size: 4vmin;
+margin: 1%;
+border-radius: 25px;
+}
 .keyshow{display: none!important;}

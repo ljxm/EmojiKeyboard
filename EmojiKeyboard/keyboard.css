@@ -64,7 +64,7 @@
   font-size: 6.5vmin;
   background-color: white;
   overflow: auto;
-  overflow-anchor: auto;
+  
  
 
 }
@@ -76,6 +76,7 @@ font-size: 4vmin;
 margin: 1%;
 border-radius: 25px;
 }
+
 .hide{
 width: 25vw;
 height: 7vmin;
@@ -83,4 +84,10 @@ font-size: 4vmin;
 margin: 1%;
 border-radius: 25px;
 }
+
 .keyshow{display: none!important;}
+
+#tabgroup{
+  opacity: 0;
+  height: 0px;
+}

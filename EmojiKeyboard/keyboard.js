@@ -14,7 +14,6 @@ function delete1() {
 }
 function myFunction1a() {
     document.getElementById("messagebox").innerHTML += "🤬";
-    document.getElementById('messages').scrollIntoView(false);
 }
 function myFunction1b() {
     document.getElementById("messagebox").innerHTML += "😡";
